@@ -42,9 +42,9 @@ public class CommonEventHandler
             }
         }
         if (disabledItems.size()>0)
-            player.addChatComponentMessage(new ChatComponentText(StatCollector.translateToLocal(Names.disabled)+ ": "+StackUtils.getConcatString(disabledItems)));
+            //player.addChatComponentMessage(new ChatComponentText(StatCollector.translateToLocal(Names.disabled)+ ": "+StackUtils.getConcatString(disabledItems)));
         if (enabledItems.size()>0)
-            player.addChatComponentMessage(new ChatComponentText(StatCollector.translateToLocal(Names.enabled)+ ": "+StackUtils.getConcatString(enabledItems)));
+            //player.addChatComponentMessage(new ChatComponentText(StatCollector.translateToLocal(Names.enabled)+ ": "+StackUtils.getConcatString(enabledItems)));
         disableArmour(player,dim);
     }
 
